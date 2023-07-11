@@ -1,5 +1,6 @@
 .dart_tool/package_config.json
 .packages
+brick.png
 index.html
 main.dart.js
 packages/$sdk/dev_compiler/amd/require.js
@@ -16,3 +17,7 @@ packages/build_web_compilers/src/dev_compiler_stack_trace/stack_trace_mapper.dar
 packages/lints/core.yaml
 packages/lints/recommended.yaml
 styles.css
+test.png
+tile.png
+toreneditor.png
+towertale.png
