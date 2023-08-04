@@ -2,6 +2,7 @@
 .packages
 brick.png
 index.html
+logo.png
 main.dart.js
 packages/$sdk/dev_compiler/amd/require.js
 packages/$sdk/dev_compiler/web/dart_stack_trace_mapper.js
@@ -19,5 +20,6 @@ packages/lints/recommended.yaml
 styles.css
 test.png
 tile.png
+tile2.png
 toreneditor.png
 towertale.png

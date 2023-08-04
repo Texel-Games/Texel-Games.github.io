@@ -25,10 +25,23 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("brick.png");
+  /* background-image: url("tile2.png");
   background-repeat: repeat;
-  background-size: 64px;
-  image-rendering: pixelated;
+  background-size: 300px;
+  image-rendering: pixelated; */
+
+  background: linear-gradient(to right, rgb(66, 160, 1), rgb(255, 140, 0));
+
+
+}
+
+#project-showcase-gradient-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top, rgb(0, 14, 168), transparent);
+  width: 100%;
+  height: 100%;
 }
 
 #project-info-title {
@@ -40,7 +53,7 @@ body {
 }
 
 #title {
-  margin: 0px;
+
   font-size: 100px;
   text-align: center;
 }
@@ -61,10 +74,25 @@ body {
   margin: 0px;
 }
 
+#logo-container {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 354px;
+  height: 105px;
+}
+
 .project-showcase-item {
   width: 256px;
   height: 256px;
-  margin-left: 10px;
+  margin-left: 0px;
   margin-top: 10px;
   margin-bottom: 10px;
   background-image: url(test.png);
@@ -82,7 +110,6 @@ body {
 footer {
   background-color: #ffffff;
   padding: 10px;
-  position: fixed;
   bottom: 0;
   width: 100%;
 }
